@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <p>Student<br /> Registration<br /> Form.</p>
+        <div id="form">
+            <form>
+                <!-- Table -->
+                <table class="table">
+                    <tr>
+                        <td class="first">FIRST NAME</td> <!-- First name -->
+                        <td><input type="text" name="firstname" placeholder="Alex"
+                                style="height: 25px; width: 200px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="last">LAST NAME</td> <!-- Last name -->
+                        <td><input type="text" name="lastname" placeholder="Byro"
+                                style="height: 25px; width: 200px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="father">FATHER'S NAME</td> <!-- Father's' name -->
+                        <td><input type="text" name="fathername" placeholder="Max Byro"
+                                style="height: 25px; width: 200px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="gender">GENDER</td> <!-- Gender -->
+                        <td>
+                            <input type="radio" name="gender" value="male"
+                                style="height: 10px; width: 10px; margin: 0px 0px 3px 0px;" /> MALE
+                            <input type="radio" name="gender" value="female"
+                                style="height: 10px; width: 10px; margin: 0px 0px 3px 0px;" /> FEMALE
+                            <input type="radio" name="gender" value="other"
+                                style="height: 10px; width: 10px; margin: 0px 0px 3px 0px;" /> OTHER
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="course">COURSE</td> <!-- Course -->
+                        <td>
+                            <select name="Course"
+                                style="height: 25px; width: 200px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;">
+                                <option value="-1" selected>Select..</option>
+                                <option value="B.Tech">B.TECH</option>
+                                <option value="MCA">MCA</option>
+                                <option value="MBA">MBA</option>
+                                <option value="BCA">BCA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="dob">DOB</td> <!-- Date Of Birth -->
+                        <td><input type="date" name="dob"
+                                style="height: 25px; width: 200px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="mobile">MOBILE NO.</td> <!-- Mobile No. -->
+                        <td><input type="number" name="mobile" placeholder="8877559944"
+                                style="height: 25px; width: 200px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="address">ADDRESS</td> <!-- Address -->
+                        <td><textarea value="address" cols="30" rows="3" placeholder="Surat, India"
+                                style="height: 40px; width: 240px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="state">STATE</td> <!-- State -->
+                        <td>
+                            <select name="State"
+                                style="height: 25px; width: 200px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;">
+                                <option value="-1" selected>Select..</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Pubjab">Pubjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="Uttarakhand">Uttarakhand</option>
+                                <option value="West Bengal">West Bengal</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="email">EMAIL</td> <!-- Email -->
+                        <td><input type="text" name="emailid" placeholder="email@gmail.com"
+                                style="height: 25px; width: 200px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="password">PASSWORD</td> <!-- Password -->
+                        <td><input type="password" name="password" placeholder="********"
+                                style="height: 25px; width: 200px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="repass">RE-TYPE PASSWORD</td> <!-- Re-Password -->
+                        <td><input type="password" name="repass"
+                                style="height: 25px; width: 200px; border-radius: 10px; border-width: 0.5px; margin: 0px 0px 3px 0px;" />
+                        </td>
+                    </tr>
+                </table>
+                <button id="subbut"> <!-- Submit Button -->
+                    SUBMIT
+                </button>
+                <button id="retbut" type="reset"> <!-- Reset Button -->
+                    RESET
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
