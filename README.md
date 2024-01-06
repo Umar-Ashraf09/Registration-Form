@@ -14,6 +14,7 @@ Welcome to the Student Registration Form! This is a simple web-based form to col
 
 ## Preview
 
+![Registration Form](https://github.com/Umar-Ashraf09/Registration-Form/assets/92431008/d6b62bce-9f04-4651-b917-1e82b3cfcd5d)
 
 
 ## Technologies Used
