@@ -1,4 +1,4 @@
-# Student Registration Form
+# Registration Form
 
 [Registration Form](https://umar-ashraf09.github.io/Registration-Form/)
 
